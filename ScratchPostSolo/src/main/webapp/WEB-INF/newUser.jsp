@@ -72,7 +72,7 @@
   <button type="submit" class="btn btn-light mt-2">Register</button>
 </form:form>
 
-<a class="mb-1 ms-3" href="/">login</a>
+<a class="mb-1 ms-3" href="/">Login</a>
   </div>
   </div>
 

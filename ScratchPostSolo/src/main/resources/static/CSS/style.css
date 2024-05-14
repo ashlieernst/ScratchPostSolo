@@ -53,7 +53,8 @@
 	width: 900px;
 	border-style: solid;
 	border-color: gray;
-	margin-left: 100px;
+	margin-left: 50px;
+	border-radius: 10px;
 }
 
 
@@ -65,10 +66,11 @@
 	display:flex;
 	font-size: 20px;
 	text-align:center;
-	margin-left: 150px;
+	margin-left: 140px;
 	margin-top: 100px;
 	border-style:solid;
 	border-color:gray;
+	background-color: #FFF0F5;
 	height:200px;
 	border-radius: 10px;
 	
