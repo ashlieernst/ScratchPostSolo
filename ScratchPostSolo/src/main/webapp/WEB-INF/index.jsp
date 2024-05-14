@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="/home">Home</a>
-         <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
+        
       </div>
     </div>
   </div>
@@ -63,10 +63,6 @@
 	</form:form>
 	<a class="mb-1" href="/user/new">Create new account</a>
 	</div>
-
-	
-	
-	
 	
   </div>
   </div>

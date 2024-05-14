@@ -42,6 +42,7 @@
 	<div class="titleContainer mt-5 me-4">
 	<h1>ScratchPost</h1>
 	<p>A place for cat owners</p>
+	<img class="paw" src="/images/paw.png">
 	
 	</div>
 
