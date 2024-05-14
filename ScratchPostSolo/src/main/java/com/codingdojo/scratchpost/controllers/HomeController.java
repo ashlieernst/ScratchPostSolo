@@ -133,19 +133,16 @@ public class HomeController {
 		
 	}
 	
-	@GetMapping("/posts/view/{id}")
-	public String showTeam(@PathVariable("id")Long id, Model model) {
-		Post post = postService.getOnePost(id);
-		model.addAttribute("post", post);
-		
-		return "viewPost.jsp";
-		
-	}
 	
 	@GetMapping("/posts/edit/{id}")
-	public String editPost(@PathVariable("id")Long id, Model model) {
+	public String editPost(@PathVariable("id")Long id, Model model, HttpSession session) {
 		Post post = postService.getOnePost(id);
 		model.addAttribute("post", post);
+		
+		Long userId = (Long) session.getAttribute("userId");
+		if(userId == null) {
+			return "redirect:/";
+		}
 		
 		return "editPost.jsp";
 	}
