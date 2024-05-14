@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.navbar-brand {
+	font-size: 25px;
+	
+}
+.titleContainer {
+	text-align:center;
+}
+.indexContainer {
+	display:flex;
+	justify-content: space-around;
+	width:800px;
+	height: 500px;
+	margin-left:200px;
+	
+}
+
+.registerContainer {
+	height: 500px;
+	width: 400px;
+}
+
+.paw {
+	width: 250px;
+	
+}
+
+.blackPaw {
+	width:30px;
+	height: 30px;
+	margin-left:2px;
+}
+
+.userContainer {
+	display:flex;
+	align-items:center;
+	width: 400px;
+	height: 400px;
+}
+
+
+.homeContainer {
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	width: 800px;
+	margin-left: 200px;
+	
+}
+
+.image {
+	width: 900px;
+	border-style: solid;
+	border-color: gray;
+	margin-left: 100px;
+}
+
+
+.card-header {
+	background-color :#FFF0F5;
+}
+
+.textContainer {
+	display:flex;
+	font-size: 20px;
+	text-align:center;
+	margin-left: 150px;
+	margin-top: 100px;
+	border-style:solid;
+	border-color:gray;
+	height:200px;
+	border-radius: 10px;
+	
+}
+
+.card-title {
+	background-color: #FFF0F5;
+}
+
+.updateContainer {
+	width: 800px;
+}
+
+
